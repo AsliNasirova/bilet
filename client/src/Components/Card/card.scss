@@ -1,0 +1,46 @@
+.cardArea {
+
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+
+    .cardBox {
+        border: none;
+        border-radius: 30px;
+        background-color: rgb(241,249,255);
+        gap: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+
+        &:hover{
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .imageCArd {
+
+            i {
+                font-size: 40px;
+            }
+        }
+        .cardIcon{
+            gap: 20px;
+            display: flex;
+            justify-content: center;
+
+            .heart{
+                &:hover{
+             color: red;
+                }
+            }
+        }
+    }
+}
